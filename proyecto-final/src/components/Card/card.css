@@ -5,27 +5,21 @@
 .container{
     display: flex;
     justify-content: space-between;
-    gap: 40px;
-    
-}
-    
-.card {
+   justify-items: center;
     flex-basis: 25%; /* Cada tarjeta ocupa el 25% del contenedor padre */
     max-width: 25%; /* Asegura que la tarjeta no sea más grande que el 25% */
     box-sizing: border-box;
-    background-color: hsl(257.42deg 65.96% 81.57%);
-    padding: 20px;
-    padding-bottom: 0;
-    border-radius: 5px;
-    margin: 0;
+    align-items: center;
+    background-color: bisque;
+}
+    
+.card {
+  background-color: hsl(257.42deg 65.96% 81.57%);
+  padding: 10px;
+ border-radius: 5px;
 }
 .category-title{
-   
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 0;
-   
-    width: 100%;
+  
   font-size: larger;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     

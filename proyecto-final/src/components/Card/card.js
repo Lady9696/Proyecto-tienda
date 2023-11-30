@@ -10,8 +10,8 @@ const Card = ({ category }) => {
 return (
     <div className="container">
     <div className="card">
-        <img src={IMAGE_CATEGORIES} alt={category.name}/> {/* Asumiendo que category tiene estas propiedades */}
-        <p>{category}</p>
+        <img src={IMAGE_CATEGORIES} alt={category}/> 
+        <p className='category-title'>{category}</p>
     </div>
 </div>
        
