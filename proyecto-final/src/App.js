@@ -1,7 +1,6 @@
 
-// import './App.css';
-import Layout from './components/Layout/layout';
-
+ import './App.css';
+import Layout from "./components/Layout/layout";
 function App() {
   return (
     <div className="App">
