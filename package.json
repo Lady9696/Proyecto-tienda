@@ -1,6 +1,10 @@
 {
   "dependencies": {
-    "@s-ui/mono": "^2.41.0",
-    "axios": "^1.6.2"
+    "axios": "^1.6.2",
+    "commitlint": "^18.4.3",
+    "react-router-dom": "^6.20.1"
+  },
+  "devDependencies": {
+    "@s-ui/mono": "^2.41.0"
   }
 }
